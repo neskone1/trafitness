@@ -1,60 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
 
-    <!-------Mdbootrap -->
-
-  <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
-
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
-
+  
+   <!-- other head stuff... -->
 
 
-  <!-----------end MDbootrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TRA Fitness</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!-- other head stuff... -->
-<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+       
     <title>trafitness</title>
 </head>
 <body>
 
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-                <a class="navbar-brand " href="assets/pictures/tralogo.png"></a>
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                </ul>
-              </nav>
-              <h1>This is TRAFITNESS ! </h1>
+        <!-- Navbar -->
+  <nav class="navbar   bg-danger navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+
+
+      <a class="navbar-brand js-scroll-trigger" href="index.html">
+        <img src="./assets/pictures/tra fit logo.png" height="60px" alt="Responsive image"> </a>
+
+
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="videos.html">Videos</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="events.html">Events</a>
+          </li>
+
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.instagram.com/trafitnesspr/?fbclid=IwAR3Wv9fhYiZVPo3Hp3TknAsOJ_IbC7o0rUwzGBWABOr7mJqt7Nv63LSqpLM">Instagram</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+              href="https://www.facebook.com/trafitnesspr">Facebook</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End of Navbar-->
+  <div id="jumbo" class="jumbotron text-center">
+    <h1 id="welcome" class="text"> WELCOME TO TRAFITNESS </h1>
+    <p id="slogan">Discipline + Consistent </p>
+    <img id="logo" src="./assets/pictures/tralogo.png" alt="Responsive image">
+  </div>
+  
+  <div  class="container">
+  
+    <div id="trivia" class=" col-sm ">
+      
+        <img id="tra" src="./assets/pictures/trapic.jpg" alt="Responsive image">
+
+      <h3 class="trivia">José R. Díaz Rivera (José Tra)</h3>
+      <p class="about">Fitness Trainer
+      </p>
+      <p class="about"> 
+          +1 787-429-3714
+        </p>
+        <p class="about">
+            trafitnesspr@gmail.com
+          </p>
+        </div>
+    <div class="row">
+          
+
+      <div id="gif" class="col-sm">
+          <img id="logo" src="./assets/pictures/pic7.jpg" alt="Responsive image">
+
+
+        
+      </div>
+      <div id="gif" class="col-sm">
+
+          <img id="logo" src="./assets/pictures/pic5.jpg" alt="Responsive image">
+          
+      </div>
+
+
+      
+
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="row">
+
+
+  <div id="train" class="col-sm">
+
+      <img id="logo" src="./assets/pictures/pic6.jpg" alt="Responsive image">
+    </div>
+
+    <div id="byte" class="col-sm">
+
+        <img id="logo" src="./assets/pictures/pic2.jpg" alt="Responsive image">
+    </div>
+    <div id="picki" class="col-sm">
+
+        <img id="logo" src="./assets/pictures/pic3.jpg" alt="Responsive image">
+      </div>
+  
+      <div id="picki" class="col-sm">
     
+          <img id="logo" src="./assets/pictures/pic4.jpg" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
 </body>
 </html>

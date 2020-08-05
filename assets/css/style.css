@@ -1,0 +1,47 @@
+.navbar-brand {
+
+    size: 600px;
+}
+
+body{
+  background-color: black;
+}
+
+a{
+    color: black;
+}
+.jumbotron{
+    background-color: rgb(12, 12, 12);
+}
+
+#welcome{
+    color: aliceblue;
+    margin-top: 80px;
+}
+#slogan{
+    color: aliceblue;
+}
+
+#logo{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#tra{
+
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+#trivia{
+    text-align: center;
+}
